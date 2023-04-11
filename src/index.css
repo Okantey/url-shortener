@@ -16,12 +16,16 @@
   --Grayish-Violet: hsl(257, 7%, 63%);
   --Very-Dark-Blue: hsl(255, 11%, 22%);
   --Very-Dark-Violet: hsl(260, 8%, 14%);
+  --body-padding: 5%;
 }
 
 html {
   font-size: 100%;
 }
 
+* {
+  font-family: var(--font-family);
+}
 ::before,
 ::after {
   box-sizing: border-box;

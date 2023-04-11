@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__container,
+.section__left,
+.section__right,
+.links__container {
+  display: flex;
+  align-items: center;
+}
+.links__container,
+.section__right {
+  gap: 1.5rem;
+}
+
+.link__item {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--Very-Dark-Blue);
+}
