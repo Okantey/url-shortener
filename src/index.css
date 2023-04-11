@@ -13,6 +13,7 @@
   --Dark-Violet: hsl(257, 27%, 26%);
   --Red: hsl(0, 87%, 67%);
   --Gray: hsl(0, 0%, 75%);
+  --Light-Gray: hsl(0, 0%, 99%);
   --Grayish-Violet: hsl(257, 7%, 63%);
   --Very-Dark-Blue: hsl(255, 11%, 22%);
   --Very-Dark-Violet: hsl(260, 8%, 14%);
@@ -38,4 +39,5 @@ body {
   padding: 0;
   font-family: var(--font-family);
   overflow-x: hidden;
+  background-color: var(--Light-Gray);
 }
