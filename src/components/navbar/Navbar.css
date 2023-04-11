@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-inline: var(--body-padding);
+  padding-block: 0.5rem;
 }
 
 .logo__container,
@@ -21,5 +23,5 @@
 }
 a {
   text-decoration: none;
-  color: var(--Very-Dark-Blue);
+  color: var(--Grayish-Violet);
 }

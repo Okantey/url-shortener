@@ -1,0 +1,21 @@
+.hero {
+  padding-inline-start: var(--body-padding);
+  padding-block: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  place-items: center;
+}
+
+.hero__block {
+  font-size: 4.5rem;
+  line-height: 1.2;
+  margin: 0;
+}
+.hero__right {
+  margin-right: -7rem;
+}
+.hero__right img {
+  width: 100%;
+  overflow: hidden;
+}
