@@ -1,12 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-import { Header, Statistics } from "./components";
+import { Footer, Header, Statistics } from "./components";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Statistics />
+      <Footer />
     </div>
   );
 }
