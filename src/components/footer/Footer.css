@@ -1,0 +1,28 @@
+.footer {
+  background: var(--Very-Dark-Violet);
+  color: white;
+  padding-inline: var(--body-padding);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: top;
+  padding-block: 2rem;
+}
+
+.footer h3 {
+  margin: 0;
+}
+.links__box {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-block: 1rem;
+}
+.footer .links__box li {
+  list-style: none;
+}
+
+.footer .links__box li a {
+  text-decoration: none;
+}
