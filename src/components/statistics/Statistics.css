@@ -1,0 +1,5 @@
+.statistics {
+  background: var(--Gray);
+  padding-inline: var(--body-padding);
+  position: relative;
+}
