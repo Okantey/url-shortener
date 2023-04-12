@@ -1,0 +1,15 @@
+.boost {
+  background: url("../../assets/bg-boost-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  background-color: var(--Dark-Violet);
+  margin-top: -20px;
+  padding-inline: var(--body-padding);
+  padding-block: 3rem;
+  text-align: center;
+}
+
+.boost h1 {
+  color: white;
+  font-size: 2rem;
+}

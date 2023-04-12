@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   place-items: top;
-  padding-block: 2rem;
+  padding-block: 4rem;
 }
 
 .footer h3 {
@@ -25,4 +25,12 @@
 
 .footer .links__box li a {
   text-decoration: none;
+}
+.socials__links img {
+  width: 2rem;
+}
+.socials__links {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
 }

@@ -58,10 +58,22 @@ const Footer = () => {
         </ul>
       </div>
       <div className="socials__links">
-        <img src={facebook} alt="facebook" />
-        <img src={twitter} alt="twitter" />
-        <img src={pinterest} alt="pinterest" />
-        <img src={instagram} alt="instagram" />
+        <div>
+          {" "}
+          <img src={facebook} alt="facebook" />
+        </div>
+        <div>
+          {" "}
+          <img src={twitter} alt="twitter" />
+        </div>
+        <div>
+          {" "}
+          <img src={pinterest} alt="pinterest" />
+        </div>
+        <div>
+          {" "}
+          <img src={instagram} alt="instagram" />
+        </div>
       </div>
     </footer>
   );
